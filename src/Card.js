@@ -14,7 +14,7 @@ import { RiCloudyFill, RiDropFill } from 'react-icons/ri';
 import { IoIosSpeedometer } from 'react-icons/io';
 
 const Card = (props) => {
-  const iconURL = `http://openweathermap.org/img/wn/${props.icon}@2x.png`;
+  const iconURL = `https://openweathermap.org/img/wn/${props.icon}@2x.png`;
   const weatherDescription = props.description;
   return (
     <>
